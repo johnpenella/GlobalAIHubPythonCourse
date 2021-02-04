@@ -1,1 +1,27 @@
 
+John Penella
+Homework 1 - Day 2
+
+#QUESTION 1: 
+
+n = 10    #odd case
+print('even n:',n)     #a range from 0 to n is assigned to list1 (n can be odd or even)
+list1 = [i for i in range(n)]
+list2 = list1[int(len(list1)/2):len(list1)] + list1[0:int(len(list1)/2)]      #second half of list 1 added to first half of list1, assigned to list2
+print(list1)
+print(list2,'\n')
+
+n = 9     #even case
+print('odd n:',n)
+list1 = [i for i in range(n)]
+list2 = list1[int(len(list1)/2):len(list1)] + list1[0:int(len(list1)/2)]
+print(list1)
+print(list2)
+
+
+#QUESTION 2:
+
+n = int(input('Enter a single digit integer:'))      #requests single digit input from user, converts to integer dtype
+
+evens = [i for i in range(n) if i % 2 == 0] + [n]    #creates list, evens, from even elements of range(n), adds n as last element
+print(evens)
