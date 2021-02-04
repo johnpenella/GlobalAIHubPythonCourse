@@ -1,4 +1,4 @@
 # GlobalAIHubPythonCourse
 Homework &amp; Final Project
 
-Due: Sunday Feb. 7 at 4PM
+Due: Sunday Feb. 7 at 4PM EST
